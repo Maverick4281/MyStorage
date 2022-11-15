@@ -1,0 +1,354 @@
+.title {   /* Верхний заголовок */
+    position: fixed;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #004C93;
+}
+.myname { /* Моё имя и фамилия */
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    left: 165px;
+    top: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about_me { /* Обо мне */
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    left: 570px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.my_proff { /* Моя деятельность */
+    position: absolute;
+    width: 146px;
+    height: 19px;
+    left: 663px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.calc { /* Калькулятор */
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 835px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.problems { /* Сложности */
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    left: 961px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.mood { /* Настроение */
+    position: absolute;
+    width: 95px;
+    height: 19px;
+    left: 1077px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+.contacts { /* Контакты */
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    left: 1198px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+.my_photo { /* Загрузка фото */
+    box-sizing: border-box;
+    position: absolute;
+    width: 498px;
+    height: 656px;
+    left: 835px;
+    top: 127px;
+    background: url(myphoto.jpg);
+    border: 1px solid #ffffff;
+}
+.text_hello { /* Текст приветствия */
+    position: absolute;
+    width: 317px;
+    height: 44px;
+    left: 320px;
+    top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+}
+.text_about { /* Текст обо мне */
+    position: absolute;
+    width: 769px;
+    height: 346px;
+    left: 40px;
+    top: 344px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #004C93;
+}
+.box_about_me { /* Контейнер для блока обо мне*/
+    position: absolute;
+    width: 1440px;
+    height: 541px;
+    left: 0px;
+    top: 838px;
+    background: #F3FBFF;
+}
+.my_proff_text{ /* Текст блока о моей деятельности */
+    position: absolute;
+    width: 339px;
+    height: 44px;
+    left: 165px;
+    top: 864px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+}
+.minibox { /* параметры блока */
+    position: absolute;
+    width: 200px;
+    height: 289px;
+    left: 0px;
+    top: 15px;
+}
+.minibox_border { 
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 289px;
+    left: 165px;
+    top: 934px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+}
+.minibox_number {
+    position: absolute;
+    width: 55px;
+    height: 190px;
+    left: 177px;
+    top: 934px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 160%;
+    color: #004C93;
+}
+.minibox_text {
+    position: absolute;
+    width: 175px;
+    height: 120px;
+    left: 177px;
+    top: 1101px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #2E4674;
+}
+.calc_text {
+    position: absolute;
+    width: 237px;
+    height: 44px;
+    left: 165px;
+    top: 1406px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+}
+.calc_box {
+    position: absolute;
+    width: 627px;
+    height: 275px;
+    left: 134px;
+    top: 1469px;
+
+}
+.calc_text_operation {
+    position: absolute;
+    width: 151px;
+    height: 22px;
+    left: 31px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+}
+.Calculate > button {
+    background-color: rgb(23, 123, 211);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.finish > button:hover {
+    background-color: rgb(0, 0, 179);
+}
+.box_diff { /* параметры второго блока */
+    position: absolute;
+    width: 1444px;
+    height: 539px;
+    left: -5px;
+    top: 1754px;
+    background: #F1F9FE;
+}
+.box_diff_text {
+    position: absolute;
+    width: 209px;
+    height: 44px;
+    left: 165px;
+    top: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+}
+.minibox_diff {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 165px;
+    top: 100px;
+
+}
+.minibox_diff_border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #004C93;
+    border-radius: 4px;
+}
+.minibox_diff_number {
+    position: absolute;
+    width: 54.69px;
+    height: 120px;
+    left: 70px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 100%;
+    color: #004C93;
+}
+.minibox_diff_text {
+    position: absolute;
+    width: 175px;
+    height: 120px;
+    left: 10px;
+    top: 140px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #2E4674;
+}
+.mood_text {
+    position: absolute;
+    width: 220px;
+    height: 44px;
+    left: 165px;
+    top: 570px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #004C93;
+}
+.mood_picture {
+    position: absolute;
+    width: 905px;
+    height: 501px;
+    left: 250px;
+    top: 650px;
+    background: url(mood.jpg);
+}
+.finish_line {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 1240px;
+    background: #004C93;
+}
+.mypagevk {
+    position: absolute;
+    left: 86.18%;
+    right: 11.46%;
+    top: 40.99%;
+    bottom: 30.11%;
+    background: url(Vk.png);
+}
